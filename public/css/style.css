@@ -1,0 +1,97 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-color:#4B0082;
+    width: 100%;
+    height: 40px;
+}
+
+.background{
+    display: inline-block;
+    background-color: #6902b3;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.buttons{
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.button{
+    align-content: center;
+    width: 100px;
+    float: right;
+    color: white;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.submit--btn{
+    margin-top: 5%;
+    margin-left: 52%;
+    background-color: #4B0082;
+    width: 160px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.background--items{
+    background-color: #ffff;
+    color: #4B0082;
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.items{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    border: none;
+}
+
+
+.sucess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 90px;
+    font-size: 50px;
+}
+
+
+input{
+    margin-left: 40px;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    background-color: #ecebeb;
+    
+}
+
+input[type=text]{
+    text-transform: capitalize;
+}
+
+label{
+    margin-left: 50px;
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
